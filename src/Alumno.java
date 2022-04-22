@@ -10,6 +10,12 @@ public class Alumno {
 		this.apellido = apellido;
 		this.dni = dni;
 	}
+
+	@Override
+	public String toString() {
+		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";
+	}
+	
 	
 	
 }
